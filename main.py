@@ -1,7 +1,7 @@
 import requests
 import os
 from urllib.parse import urlparse
-from dotenv import load_dotenv
+from dotenv import load_dotenv, dotenv_values
 import argparse
 
 
@@ -48,11 +48,12 @@ def get_estimated_bitlink_info(token, user_url):
 
 
 if __name__ == '__main__':
-  parser = argparse.ArgumentParser(description='')
+  parser = argparse.ArgumentParser(description='Не забудьте ввести позиционный аргумент')
   parser.add_argument('link', help='Корректная, обычная или bitly, ссылка')
   args = parser.parse_args()
   load_dotenv()
-  token = os.getenv('BITLY_TOKEN')
+  config = dotenv_values('.env')
+  token = config['BITLY_TOKEN']
   user_url = args.link
   try:
     try:
