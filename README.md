@@ -12,10 +12,13 @@
 	```
 	pip install -r requirements.txt
 	```
+	
 + У вас есть ссылка, с которой Вы будете работать. О токене для [***bitly***](https://bitly.com/) не беспокойтесь, он уже предоставлен для Вас.
 
 **! Важно !**
 Перед установкой ```requirements.txt``` обязательно используйте (virtualvenv/venv) для изоляции проекта и корректной работы кода
+Вот пример запуска и работы скрипта:
+![Code](Link-shortener-and-bitly-click-counter/pictures/Code 'Code sample in cmd')
 
 ### Цель проекта
 
