@@ -18,7 +18,8 @@
 **! Важно !**
 Перед установкой ```requirements.txt``` обязательно используйте (virtualvenv/venv) для изоляции проекта и корректной работы кода
 Вот пример запуска и работы скрипта:
-![Code](Link-shortener-and-bitly-click-counter/pictures/Code 'Code sample in cmd')
+
+![alt text](https://github.com/WiseBoiii/Link-shortener-and-bitly-click-counter/blob/main/pictures/Code.png)
 
 ### Цель проекта
 
