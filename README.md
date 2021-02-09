@@ -17,6 +17,10 @@
 + Вы создали файл ```.env``` в папке репозитория со своим токеном [***bitly***](https://bitly.com/), вот пример заполнения файла ```.env``` :
 ![alt text](https://github.com/WiseBoiii/Link-shortener-and-bitly-click-counter/blob/main/pictures/envsample.png)
 
+### Нужные вам команды
+ ```cd C:\(Path to repository)```
+ ```
+
 **! Важно !**
 Перед установкой ```requirements.txt``` обязательно используйте (virtualvenv/venv) для изоляции проекта и корректной работы кода
 Вот пример запуска и работы скрипта:
