@@ -1,7 +1,7 @@
 import requests
 import os
 from urllib.parse import urlparse
-from dotenv import load_dotenv, dotenv_values
+from dotenv import dotenv_values
 import argparse
 
 
@@ -51,7 +51,6 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Не забудьте ввести позиционный аргумент')
   parser.add_argument('link', help='Корректная, обычная или bitly, ссылка')
   args = parser.parse_args()
-  load_dotenv()
   config = dotenv_values('.env')
   token = config['BITLY_TOKEN']
   user_url = args.link
