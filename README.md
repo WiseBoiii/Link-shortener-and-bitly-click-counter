@@ -12,10 +12,10 @@
 ![alt text](https://github.com/WiseBoiii/Link-shortener-and-bitly-click-counter/blob/main/pictures/envsample.png)
 
 ### Нужные вам команды
- ```cd C:\(Path to repository)```Вы перейдете в папку с репозиторием
- ```python -m venv (name of venv)```С помощью этого вы создадите свое виртуальное окружение
- ```pip install -r requirements.txt```С помощью этого вы установите нужные вам библиотеки
- ```python main.py```Это запустит код и покажет вам возможные аргументы для запуска
+ + ```cd C:\(Path to repository)```Вы перейдете в папку с репозиторием
+ + ```python -m venv (name of venv)```С помощью этого вы создадите свое виртуальное окружение
+ + ```pip install -r requirements.txt```С помощью этого вы установите нужные вам библиотеки
+ + ```python main.py```Это запустит код и покажет вам возможные аргументы для запуска
 
 **! Важно !**
 
