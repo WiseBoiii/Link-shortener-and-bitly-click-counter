@@ -36,7 +36,7 @@ def count_clicks(token, bitlink):
   return counted_clicks
 
 
-def get_estimated_bitlink_info(token, user_url):
+def get_general_bitlink_info(token, user_url):
   headers = {
       'Authorization': token
   }
