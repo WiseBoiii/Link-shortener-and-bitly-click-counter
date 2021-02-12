@@ -9,7 +9,7 @@
 + Python 3.9 должен быть уже установлен. 	
 + У вас есть ссылка, с которой Вы будете работать. О токене для [***bitly***](https://bitly.com/) вы можете узнать в своем профиле на сайте [***bitly***](https://bitly.com/)
 + Вы создали файл ```.env``` в папке репозитория со своим токеном [***bitly***](https://bitly.com/), вот пример заполнения файла ```.env``` :
-![alt text](https://github.com/WiseBoiii/Link-shortener-and-bitly-click-counter/blob/main/pictures/SampleOfEnvFile.png)
+![alt text](https://github.com/WiseBoiii/Link-shortener-and-bitly-click-counter/blob/main/pictures/SampleOfEnvFileConfirmed.png)
 
 ### Нужные вам команды
 ```
