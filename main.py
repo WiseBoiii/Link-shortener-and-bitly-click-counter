@@ -36,7 +36,7 @@ def count_clicks(token, bitlink):
   return counted_clicks
 
 
-def get_general_bitlink_info(token, user_url):
+def check_link(token, user_url):
   headers = {
       'Authorization': token
   }
@@ -56,7 +56,7 @@ if __name__ == '__main__':
   user_url = args.link
   try:
     try:
-      get_estimated_bitlink_info(token, user_url)
+      check_link(token, user_url)
       clicks = count_clicks(token, user_url)
       print('Количество кликов по Вашей ссылке:', clicks)
     except requests.exceptions.HTTPError:
